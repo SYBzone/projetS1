@@ -1,0 +1,16 @@
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family:Roboto-Medium, sans-serif;
+    font-size: 1.6rem;/*=16px*/
+    line-height: 1.6;
+    margin:0 20px;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    font-family: "Raleway ExtraBold", sans-serif;
+}

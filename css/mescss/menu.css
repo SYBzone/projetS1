@@ -39,7 +39,7 @@ background-color: white;
 }
 /*Menu*/
 .menu{
-    background-color: cadetblue;
+    background: linear-gradient(#E52D73, #01004E);
     position: fixed;
     top: 0;
     left:0;
@@ -67,9 +67,7 @@ background-color: white;
     text-transform: uppercase;
     width: 75%;
 }
-.menu ul::before{
-    background-image: url("./img/interface/fb.png");
-}
+
 .menu li{
     margin-bottom: 30px;
     transform: translateX(30px);
@@ -79,10 +77,14 @@ background-color: white;
 .menu li::before{
     font-family: arial;
     content: "►\0000A0\0000A0";
-}
-}
-.menu a{
     color: white;
+    padding-right:10px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Raleway ExtraBold", sans-serif;
 }
 .menu-open .menu li{
     transform: translateX(0);

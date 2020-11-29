@@ -1,0 +1,17 @@
+body{
+    background-color: #FCF6EC;
+    margin: 0;
+}
+.triangle-accueil{
+    width: 375px;
+    height: 700px;
+}
+.bloc_article .article1 img,
+.bloc_article .article2 img,
+.bloc_article .article3 img{
+    width: 350px;
+    height: 340px;
+}
+.header-bande .bande{
+    width: 300px;
+}

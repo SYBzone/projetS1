@@ -1,17 +1,37 @@
 body{
     background-color: #FCF6EC;
-    margin: 0;
+
 }
-.triangle-accueil{
+h1,h2,h3{
+    text-align: center;
+}
+//header//
+.header-bande{
+    position: relative;
+}
+.bande{
     width: 375px;
-    height: 700px;
+    height: 60px;
+    margin-left: -20px;
 }
+.logo{
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
 .bloc_article .article1 img,
 .bloc_article .article2 img,
 .bloc_article .article3 img{
     width: 350px;
     height: 340px;
 }
-.header-bande .bande{
-    width: 300px;
+
+.introduction p{
+    position: relative;
+}
+.introduction img{
+    float: right;
+    margin-right: -19px;
+    margin-left: 5px;
 }

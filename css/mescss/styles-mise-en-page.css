@@ -1,31 +1,31 @@
 body{
     background-color: #FCF6EC;
+    max-width: 375px;
 
 }
 h1,h2,h3{
     text-align: center;
 }
-//header//
+h1{
+    padding-top: 100px;
+}
 .header-bande{
-    position: relative;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left:0
 }
 .bande{
     width: 375px;
     height: 60px;
-    margin-left: -20px;
 }
 .logo{
     position: absolute;
-    left: 0;
-    top: 5px;
+    left:5px;
+    top:5px;
 }
 
-.bloc_article .article1 img,
-.bloc_article .article2 img,
-.bloc_article .article3 img{
-    width: 350px;
-    height: 340px;
-}
+
 
 .introduction p{
     position: relative;
@@ -35,3 +35,29 @@ h1,h2,h3{
     margin-right: -19px;
     margin-left: 5px;
 }
+
+
+.article1,
+.article2,
+.article3{
+    background-color: #100F57;
+    width: 375px;
+    height: 500px;
+}
+
+.bloc_article .article1 img,
+.bloc_article .article2 img,
+.bloc_article .article3 img{
+    width: 300px;
+    height: 330px;
+}
+.article1{
+    position: relative;
+}
+.article1 img{
+   position: absolute;
+    left:50px;
+    top:50px;
+}
+
+

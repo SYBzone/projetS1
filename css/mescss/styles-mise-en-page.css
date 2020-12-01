@@ -32,17 +32,19 @@ h1{
 }
 .introduction img{
     float: right;
-    margin-right: -19px;
+    margin-right: -8px;
     margin-left: 5px;
 }
-
 
 .article1,
 .article2,
 .article3{
     background-color: #100F57;
+    position: relative;
     width: 375px;
-    height: 500px;
+    height: 480px;
+    margin-left: -8px;
+    margin-bottom: 10px;
 }
 
 .bloc_article .article1 img,
@@ -51,13 +53,35 @@ h1{
     width: 300px;
     height: 330px;
 }
-.article1{
-    position: relative;
-}
-.article1 img{
+
+.article1 img,
+.article2 img,
+.article3 img{
    position: absolute;
-    left:50px;
-    top:50px;
+    left:37.5px;
+    top:30px;
 }
+.bouton1,
+.bouton2,
+.bouton3{
+    background: linear-gradient(to right, #5C19E5,#E327CD) ;
+    width: 255px;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    top: 380px;
+    left:60px
+}
+.bouton1 p{
+    margin: 10px 0 10px 30px;
+}
+.bouton2 p{
+    margin: 10px 0 10px 10px;
+}
+.bouton3 p{
+    margin: 10px 0 10px 30px;
+}
+
 
 

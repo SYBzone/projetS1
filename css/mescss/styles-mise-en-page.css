@@ -8,6 +8,7 @@ h1,h2,h3{
 }
 h1{
     padding-top: 100px;
+    margin-bottom: 70px;
 }
 .header-bande{
     position: fixed;

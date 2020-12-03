@@ -4,25 +4,146 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page d'accueil</title>
+    <link rel="stylesheet" href="css/lib/normalize.css">
     <link rel="stylesheet" href="css/mescss/layout.css">
+    <link rel="stylesheet" href="css/mescss/menu.css">
     <link rel="stylesheet" href="css/mescss/typography.css">
     <link rel="stylesheet" href="css/mescss/styles-graphiques.css">
     <link rel="stylesheet" href="css/mescss/styles-mise-en-page.css">
-    <link rel="stylesheet" href="css/lib/normalize.css">
 </head>
-<html>
 <body>
 <header>
-    <nav class="bandeau-nav">
-        <img src="" alt="bandeau naviquation">
-        <img src="" alt="logo">
-        <img src="" alt="menu">
-    </nav>
-    <div class="img-accueil">
-        <img src="" alt="img accueil">
-        <h1>Cin&Sciences</h1>
+    <div class="header-bande">
+        <img class="bande" src="img/interface/bandeau-header.webp/" alt="bandeau">
+        <img class="logo" src="img/interface/logo.png" alt="logo">
+        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+            <div class="nav-toggle-bar"></div>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="">Accueil</a></li>
+                <li><a href="">Her, pure film d'émotions (virtuelles ?)</a></li>
+                <li><a href="">IA: une nouvelle menace pour l'environnement</a></li>
+                <li><a href="">Un espoir d'intelligences artificielles "vertes"</a></li>
+                <li><a href="">A propos</a></li>
+                <li><a href="">Nos autres projets</a> </li>
+            </ul>
+        </nav>
     </div>
 </header>
+<h1>Cin&Sciences</h1>
+<main class="centre">
+    <h3>Her, pur film d'émotion (virtuelles ?)</h3>
+    <p>Une fable à peine virtuel qui explore la frontière entre chair et virtuel.</p>
+    <section class="her_part1">
+        <h4>Her, soit tomber amoureux d'une voix</h4>
+        <p>Cette comédie romantique réalisée par Spike Jonze sortie en salles en 2014. A beaucoup fait parler d’elle.
+        Dans le monde cinématographique, après avoir raflé de droit l’oscar du meilleur scénario. Mais aussi dans nos discussions.
+        Car effectivement on ne peut rester de marbre à la fin du film (ou même à partir de la 10’ème minute). </p>
+        <figure>
+            <video src="video/trailer.mp4"></video>
+            <figcaption>bande-annonce her</figcaption>
+        </figure>
+        <p>Le film nous plonge dans un futur proche à Los Angeles. Theodore Twombly, un homme aux sentiments complexes sort d’une rupture difficile.
+        Il décide d’acheter un logiciel d’un assistant virtuel intelligent. Soit une intelligence artificielle programmée pour vous aider dans vos tâches quotidiennes.
+        Il appelle Samantha cette IA à la voix très humaine.  Mais alors que Samantha aidait simplement Theodore à s’organiser (de manière incroyablement efficace).</p>
+        <p>Her nous amène cependant vite sur des scènes toutes plus touchantes les unes que les autres. Fou rire, scène d'amour intense.
+        Et des conversations allant des plus simples banalités à des questions philosophiques sur les relations humaines.
+        Samantha se révélant pleine d’humanité, Théodore ne va pas réussir à s’empêcher de tomber amoureux.</p>
+    </section>
+    <section class="her_part2">
+        <h4>Qui est Samantha ?</h4>
+        <p>Samantha, à qui Scarlett Johansson prête sa voix, a dû en intriguer plus d’un d’entre vous. Puis on s’attache à elle.
+        Et on en vient presque à oublier qu’elle a été créée par l’homme et n’est « qu’une » intelligence artificielle. </p>
+        <figure>
+            <img src="img/articles/img-her-2.jpg">
+            <figcaption>Theodore Twombly en train d'installer Samantha</figcaption>
+        </figure>
+        <p>Avant de faire un rapprochement avec notre réalité, je vous propose qu’on établisse les capacités de Samantha. Elles sont difficiles à évaluer.
+        Mais on peut noter une courte liste de ce qu’elle sait faire :</p>
+        <div class="liste">
+            <figure>
+                <img src="img/articles/img-her-4.jpg" alt="affiche her">
+                <figcaption>Affiche du film Her, 2014</figcaption>
+            </figure>
+            <ul>
+                <li><p>Tenir une discussion parfaitement.</p></li>
+                <li><p>Faire de l'humour.</p></li>
+                <li><p>Prendre des initiatives.</p></li>
+                <li><p>Avoir des désirs sexuels.</p></li>
+                <li><p>Faire de l'art (musique).</p></li>
+                <li><p>Se souvenir de toutes les conversations et actions vécue (mémoire).</p></li>
+                <li><p>Et surtout d'éprouver des sentiments (?)</p></li>
+            </ul>
+        </div>
+        <div class="triangle_gallerie"></div>
+        <div class="galerie">
+            <p>Galerie de films similaire</p>
+            <figure class="G1">
+                <img src="img/articles/gallerie/gallerie%201.jpg" alt="upgrade">
+                <figcaption>Upgrade</figcaption>
+            </figure>
+            <figure class="G-2">
+                <img src="img/articles/gallerie/gallerie%202.jpg" alt="Ex-Machina">
+                <figcaption>Ex-machina</figcaption>
+            </figure>
+            <figure>
+                <img src="img/articles/gallerie/gallerie%203.jpg" alt="Alita">
+                <figcaption>Alita: Battle Angel</figcaption>
+            </figure>
+            <figure>
+                <img src="img/articles/gallerie/gallerie%204.jpg" alt="I,Robot">
+                <figcaption>I,robot</figcaption>
+            </figure>
+            <figure>
+                <img src="img/articles/gallerie/gallerie%205.jpg" alt="Blade Runner">
+                <figcaption>Balde Runner : 2049</figcaption>
+            </figure>
+            <figure>
+                <img src="img/articles/gallerie/gallerie%206.jpg" alt="2001 : L'odyssée de l'espace">
+                <figcaption>2001 : L'odyssée de l'espace</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section class="her_part3">
+        <h4>L'assistant virtuel de demain ?</h4>
+        <p>Revenons un instant sur le monde réel. Actuellement, nos intelligences artificielles
+        sont capables de gérer certains éléments d’une maison (volet, radiateur…).
+        De nous assister dans notre quotidien. Prenons exemple sur des assistants que nous connaissons bien,
+        comme Siri ou Alexa. Tout le monde a déjà programmé une alarme, appeler quelqu’un, mis une musique ou
+        encore fait une recherche internet à l’aide de son assistant. Nos IA sont aussi capables de créer de la musique.</p>
+        <figure>
+            <img src="img/articles/img-her-3.jpg" alt="Alexa et Google home">
+            <figcaption>Alexa ( à gauche) et Google Home., les assistants intelligents les plus populaires.</figcaption>
+        </figure>
+        <p>Vu ses capacités que l’on a établies dans l’article précédent.
+            Il faut croire que Samantha serait capable de passer le test de Turing.
+            Et donc serait une intelligence artificielle forte. Ce dont aucune des intelligences artificielles
+            existant n’est capable. Et qui signifie que nos IA sont encore loin d’arriver à égaliser Samantha.
+            Cela est cependant à relativiser quand on voit l’évolution exponentielle de leurs compétences.</p>
+    </section>
+    <section class="her_conclu">
+        <p>Désormais, on peut se demander quelles ressources environnementales demandent nos IA.
+            Et à quel prix, non pas budgétaire mais écologique, Samantha pourrait voir le jour.
+            C’est ce que nous allons chercher à répondre dans la suite.</p>
+        <div class="triangle_conclu 1"></div>
+        <a href="probleme"><div class="Her_bouton_conclu"><p>IA: une menace pour l'environnement</p></div></a>
+        <div class="triangle_conclu 2"></div>
+    </section>
 
+</main>
+<footer class="footer">
+    <div class="bloc_footer1">
+        <p class="footer_p1">Félix Allaire</p>
+        <p>felixallaire25@gmail.com</p>
+        <p>Projet réalisé dans le cadre d'un exercice pédagogique au département <a href="http://mmimontbeliard.com/"> MMI de Montbéliard</a></p>
+        <img src="img/interface/logo%20MMI.png" alt="logo de MMI">
+    </div>
+    <div class="bloc_footer2">
+        <a href="insta"><img src="img/interface/insta.png" alt="insta"></a>
+        <a class="fb" href="fb"><img src="img/interface/fb.png" alt="fb"></a>
+        <a href="twitter"><img src="img/interface/twitter.png" alt="twitter"></a>
+    </div>
+</footer>
 </body>
 </html>

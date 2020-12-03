@@ -7,10 +7,13 @@ body{
     font-family:Roboto-Medium, sans-serif;
     font-size: 1.6rem;/*=16px*/
     line-height: 1.6;
+    color: #2A2929;
 }
 p,h3{
-    margin-left: 20px;
+    margin-left: 15px;
+    margin-right: 10px;
 }
+
 h1{
     font-size: 5rem;
     font-family: "Raleway ExtraBold", sans-serif;
@@ -30,6 +33,14 @@ h3{
     font-family: "Roboto Black",sans-serif;
     font-size: 2.4rem;
     line-height: 29px;
+    color: black;
+}
+h4{
+    font-family: Roboto;
+    font-weight: bold;
+    margin-left: 15px;
+    font-size: 2rem;
+    margin-bottom: 0px;
 }
 strong{
     font-family: "Roboto Black";
@@ -41,4 +52,9 @@ body footer a{
 }
 footer{
     line-height: 1;
+}
+figcaption{
+    font-family: Raleway;
+    font-style: italic;
+    font-size: 1.6rem;
 }

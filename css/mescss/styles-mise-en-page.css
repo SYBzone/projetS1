@@ -1,6 +1,7 @@
 body{
     background-color: #FCF6EC;
     max-width: 375px;
+    margin:0;
 
 }
 h1,h2,h3{
@@ -26,14 +27,11 @@ h1{
     top:5px;
 }
 
-
-
 .introduction p{
     position: relative;
 }
 .introduction img{
     float: right;
-    margin-right: -8px;
     margin-left: 5px;
 }
 
@@ -44,7 +42,6 @@ h1{
     position: relative;
     width: 375px;
     height: 480px;
-    margin-left: -8px;
     margin-bottom: 10px;
 }
 .article3{
@@ -94,7 +91,6 @@ h1{
     color:white;
     width: 375px;
     height: 190px;
-    margin-left: -8px;
 }
 footer p{
     margin-left: 20px;
@@ -126,7 +122,59 @@ footer .footer_p1{
     margin-left: 30px;
     margin-right: 30px;
 }
+ /*page Her*/
 
+.trailer video{
+    width: 374px;
+}
+figure{
+    margin:0;
+}
+.centre>p{
+    margin-bottom: 40px;
+}
+.trailer figcaption,
+.her_part2>figure>figcaption{
+    text-align: center;
+}
+section{
+    margin-bottom: 60px;
+}
+.her_part2>figure>img{
+    width: 375px;
+    height: 210px;
+}
+.her_part2>figure>figcaption{
+    margin-bottom: 40px;
+}
+.liste{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.liste img{
+    width: 160px;
+    height: 280px;
+    margin-right: 0;
+    margin-left: 5px;
+
+}
+.liste ul{
+    position: absolute;
+    left: 175px;
+    top: 10px;
+    line-height: 1.4;
+    margin-left: -15px;
+    margin-top: -20px;
+    padding: 0;
+    list-style-type: none;
+}
+.liste li{
+    margin-bottom: -10px;
+}
+.liste figcaption{
+
+}
 
 
 

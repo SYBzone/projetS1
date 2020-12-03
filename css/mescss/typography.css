@@ -14,12 +14,14 @@ p,h3{
 h1{
     font-size: 5rem;
     font-family: "Raleway ExtraBold", sans-serif;
+    color: #100F58;
+    border-bottom: #F7446D 2px solid;
 }
 h2{
     font-family: "Raleway ExtraBold",sans-serif;
     font-size: 3rem;
     color: #100F58;
-    border-bottom: #F7446D 1px solid;
+    border-bottom: #F7446D 2px solid;
     width: 180px;
     margin-left: 97.5px;
     margin-top: 40px;
@@ -32,4 +34,11 @@ h3{
 strong{
     font-family: "Roboto Black";
     font-size: 1.6rem;
+}
+body footer a{
+    color:pink;
+    text-decoration: none;
+}
+footer{
+    line-height: 1;
 }

@@ -1,0 +1,74 @@
+
+.triangle_gallerie{
+    width: 92px;
+    height: 94px;
+    background: linear-gradient(to bottom,#E31BEA,#F94D67 );
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*galerie*/
+.carousel
+img{
+    max-width: 220px;
+    height: 300px;
+}
+.carousel{
+    background: linear-gradient(to bottom,#01004E, #E52D73);
+    color: white;
+    padding: 20px 0;
+}
+ul.carousel-items{
+    list-style: none;
+    padding: 20px 0;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory ;
+}
+li.carousel-item{
+    flex:1 0 220px;
+    margin-right: 20px;
+    scroll-snap-align: center;
+}
+::-webkit-scrollbar{
+    height: 2px;
+}
+::-webkit-scrollbar-track{
+    background: #01004E;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #EDEF1C;
+}
+
+
+.her_conclu a p{
+    text-align: center;
+    color: white;
+}
+.transition{
+    background: linear-gradient(to right, #5C19E5,#E327CD) ;
+    width: 200px;
+    height: 55px;
+    border-radius: 20px;
+    position: relative;
+    left:87px;
+}
+.triangle_conclu1{
+     width: 62px;
+     height: 61px;
+     background: linear-gradient(to right,#F94D67,#E327CD );
+     clip-path: polygon(0 0, 0 100%, 100% 50%);
+     position: absolute;
+     top:0;
+     right: 225px;
+ }
+.triangle_conclu2{
+    width: 62px;
+    height: 61px;
+    background: linear-gradient(to left,#E327CD,#F94D67);
+    clip-path: polygon(100% 100%, 100% 0, 0 50%);
+    position: absolute;
+    top: 0;
+    left: 225px;
+}

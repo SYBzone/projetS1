@@ -172,10 +172,28 @@ section{
 .liste li{
     margin-bottom: -10px;
 }
-.liste figcaption{
-
+.galerie{
+    width: 375px;
+    height: 900px;
+    background: linear-gradient(to bottom, #100F57,#F94D67);
 }
-
+.galerie figure img{
+    width : 150px; height : 150px;
+    border: none;
+    -moz-border-radius : 75px;
+    -webkit-border-radius : 75px;
+    border-radius : 75px;
+}
+.galerie{
+    margin-bottom:60px;
+}
+.her_part3 img{
+    width: 375px;
+    height: 211px;
+}
+.her_part3 figcaption{
+    text-align: center;
+}
 
 
 

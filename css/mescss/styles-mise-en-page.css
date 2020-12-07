@@ -97,6 +97,7 @@ h1{
     color:white;
     width: 375px;
     height: 190px;
+    margin-top: 40px;
 }
 footer p{
     margin-left: 20px;
@@ -200,7 +201,7 @@ section{
     text-align: center;
 }
 .her_conclu{
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 /*problème*/
@@ -259,5 +260,8 @@ h4>p{
 .prob_part2 figure figcaption,
 .prob_part3 figure figcaption{
     text-align: center;
+}
+.prob_conclu p{
+    margin-bottom: 30px;
 }
 

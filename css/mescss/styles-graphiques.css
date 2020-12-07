@@ -46,24 +46,7 @@ li.carousel-item{
     text-align: center;
     color: white;
 }
-.transition{
-    background: linear-gradient(to right, #5C19E5,#E327CD) ;
-    width: 200px;
-    height: 55px;
-    border-radius: 20px;
-    position: relative;
-    left:87px;
-    margin-bottom: 40px;
-}
-.triangle_conclu1{
-     width: 44px;
-     height: 47px;
-     background: linear-gradient(to bottom,#F94D67,#E327CD );
-     clip-path: polygon(100% 0, 0 0, 50% 100%);
-     position: absolute;
-     top:-65px;
-     left:80px;
- }
+
 /*prob*/
 
 .triangle_articlescience{
@@ -73,6 +56,27 @@ li.carousel-item{
     clip-path: polygon(100% 0, 0 0, 50% 100%);
     margin :80px auto 20px auto;
 
+}
+.bouton_conclu{
+    background: linear-gradient(to right, #5C19E5,#E327CD) ;
+    width: 200px;
+    height: 55px;
+    border-radius: 20px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.triangle_conclu{
+    width: 44px;
+    height: 47px;
+    background: linear-gradient(to bottom,#F94D67,#E327CD );
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.prob_transition{
+    padding-top: 15px;
 }
 
 

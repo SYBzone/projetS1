@@ -78,5 +78,15 @@ li.carousel-item{
 .prob_transition{
     padding-top: 15px;
 }
-
-
+.bouton_conclu-solu{
+    background: linear-gradient(to right, #5C19E5,#E327CD) ;
+    width: 200px;
+    height: 55px;
+    border-radius: 20px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bouton_conclu-solu p{
+    padding-top: 15px;
+}

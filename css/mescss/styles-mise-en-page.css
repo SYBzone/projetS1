@@ -99,7 +99,8 @@ h1{
     height: 190px;
     margin-top: 40px;
 }
-footer p{
+footer p,
+footer .mailto{
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 2px;
@@ -272,5 +273,18 @@ h4>p{
 .prob_conclu p{
     margin-bottom: 30px;
 }
+/*solution*/
 
+.solu_part1>img{
+    margin-left: 34px;
+}
+.solu_part2>figure img{
+    margin-left: 14px
+}
+.solu_part1 figcaption,
+.solu_part2 figcaption{
+    text-align: center;
+}
+.bouton_conclu-solu{
 
+}

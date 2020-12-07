@@ -2,14 +2,20 @@ body{
     background-color: #FCF6EC;
     max-width: 375px;
     margin:0;
-
+}
+img{
+    max-width: 375px;
 }
 h1,h2,h3{
     text-align: center;
 }
+.triangle-header{
+    position: relative;
+}
 h1{
-    padding-top: 100px;
-    margin-bottom: 70px;
+    position: absolute;
+    left: 21px;
+    top: 214px;
 }
 .header-bande{
     position: fixed;
@@ -27,10 +33,10 @@ h1{
     top:5px;
 }
 
-.introduction p{
+.intro p{
     position: relative;
 }
-.introduction img{
+.intro img{
     float: right;
     margin-left: 5px;
 }
@@ -123,12 +129,24 @@ footer .footer_p1{
     margin-right: 30px;
 }
  /*page Her*/
-
+.introduction>img{
+    width: 375px;
+    height: 516px;
+}
+.introduction h3{
+    margin-top: 60px;
+}
+.introduction p{
+    margin-top: 40px;
+}
 .trailer video{
     width: 374px;
 }
 figure{
     margin:0;
+}
+.centre{
+    margin-top: 100px;
 }
 .centre>p{
     margin-bottom: 40px;
@@ -172,21 +190,8 @@ section{
 .liste li{
     margin-bottom: -10px;
 }
-.galerie{
-    width: 375px;
-    height: 900px;
-    background: linear-gradient(to bottom, #100F57,#F94D67);
-}
-.galerie figure img{
-    width : 150px; height : 150px;
-    border: none;
-    -moz-border-radius : 75px;
-    -webkit-border-radius : 75px;
-    border-radius : 75px;
-}
-.galerie{
-    margin-bottom:60px;
-}
+
+
 .her_part3 img{
     width: 375px;
     height: 211px;
@@ -194,8 +199,58 @@ section{
 .her_part3 figcaption{
     text-align: center;
 }
+.her_conclu{
+    margin-bottom: 100px;
+}
 
+/*problème*/
 
+.articlescience{
+    width: 335px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #C9E5EB;
+    color: black;
+    font-size: 1.6rem;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
 
+.titrearticle{
+    margin-left: 30px;
+    padding-top: 10px;
+    margin-bottom: 40px;
 
+}
+.articlescience p{
+    margin-top: 20px;
+}
+.introduction .prob_intro h3{
+    margin-top: 80px;
+}
+.centre{
+    margin-top: 60px;
+}
+
+.prob_part1{
+    position: relative;
+}
+.prob_part1 p{
+    margin-left: 75px;
+    margin-top: 20px;
+}
+.prob_part1>img{
+    position: absolute;
+    left: 0;
+    top: 150px;
+}
+.prob_part1 figure{
+    margin-left: 139px;
+    margin-top: 40px;
+}
+.prob_part1 figure figcaption{
+    text-align: center;
+}
 

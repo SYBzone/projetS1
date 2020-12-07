@@ -125,9 +125,17 @@ footer .footer_p1{
     justify-content: center;
     align-items: center;
 }
-.bloc_footer2 .fb{
-    margin-left: 30px;
-    margin-right: 30px;
+.bloc_footer2 img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.bloc_footer2 .mail img{
+    width: 45px;
+    height: 45px;
+    margin-left: 0;
+}
+.bloc_footer2>a{
+    margin-left: 20px;
 }
  /*page Her*/
 .introduction>img{
@@ -264,4 +272,5 @@ h4>p{
 .prob_conclu p{
     margin-bottom: 30px;
 }
+
 

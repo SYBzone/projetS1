@@ -253,4 +253,11 @@ section{
 .prob_part1 figure figcaption{
     text-align: center;
 }
+h4>p{
+    margin-top: 20px;
+}
+.prob_part2 figure figcaption,
+.prob_part3 figure figcaption{
+    text-align: center;
+}
 

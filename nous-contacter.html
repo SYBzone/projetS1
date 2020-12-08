@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/lib/normalize.css">
+    <link rel="stylesheet" href="css/mescss/layout.css">
+    <link rel="stylesheet" href="css/mescss/menu.css">
+    <link rel="stylesheet" href="css/mescss/typography.css">
+    <link rel="stylesheet" href="css/mescss/styles-graphiques.css">
+    <link rel="stylesheet" href="css/mescss/styles-mise-en-page.css">
+    <link rel="stylesheet" href="css/mescss/formulaire.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>La menace de l'IA</title>
+</head>
+<body>
+<header>
+    <div class="header-bande">
+        <img class="bande" src="img/interface/bandeau-header.webp/" alt="bandeau">
+        <a href="index.html"><img class="logo" src="img/interface/logo.png" alt="logo"></a>
+        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+            <div class="nav-toggle-bar"></div>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="her.html">Her, pure film d'émotions (virtuelles ?)</a></li>
+                <li><a href="problèmes.html">IA: une nouvelle menace pour l'environnement</a></li>
+                <li><a href="solution.html">Un espoir d'intelligences artificielles "vertes"</a></li>
+                <li><a href="nous-contacter.html">A propos</a></li>
+                <li><a href="nos-autres-projets.html">Nos autres projets</a> </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main class="centre">
+    <section class="a_propos">
+        <h2>A propos</h2>
+        <div class="part1">
+            <p>Je m’appelle Félix Allaire et je suis étudiant à l’UTBM de Montbéliard en Métiers du Multimédia et de l’Internet. Ce site est actuellement
+                mon projet de premier semestre. Nous avions pour consigne de partir d’un film pour explorer un problème écologique lié à internet. Passionné par les
+                Intelligence Artificiel, je n’ai pas hésité.</p>
+            <img src="img/articles/a_propos.jpg" alt="Onizuka">
+        </div>
+        <div class="part2">
+            <p>Nous avions pour consigne de partir d’un film pour explorer un problème écologique lié à internet. Passionné par
+                les Intelligence Artificiel, je n’ai pas hésité. Je n’avais jamais vu le film Her donc ce fut un plaisir de
+                le découvrir. J’espère que vous avez aimez ce dossier sur les IA et l’environnement.
+                N’hésitez pas à me contacter s’il vous reste des questions ou bien si vous voulez simplement discuter sur le sujet.
+                Ce serait avec plaisir !</p>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>Nous contacter</h2>
+        <div class="container">
+            <form action="">
+
+                <label for="Prénom">Prénom</label>
+                <input type="text" id="Prénom" name="Prénom" placeholder="Votre prénom :">
+
+                <label for="Nom">Nom</label>
+                <input type="text" id="Nom" name="Nom" placeholder="Votre nom :">
+
+                <label for="mail">Adresse mail</label>
+                <input type="text" id="mail" name="mail" placeholder="votre adresse mail :">
+
+                <label for="Message">Message</label>
+                <textarea id="Message" name="Message" placeholder="Écrivez votre message (350 mots max) :" style="height:200px"></textarea>
+
+                <input type="submit" value="envoyer">
+
+            </form>
+        </div>
+    </section>
+</main>
+<div class="transition">
+    <div class="triangle_conclu"></div>
+    <a href="autres-projets.html"><div class="bouton_conclu-solu"><p>Nos autres projets</p></div></a>
+</div>
+<footer class="footer">
+    <div class="bloc_footer1">
+        <p class="footer_p1">Félix Allaire</p>
+        <a class="mailto" href="mailto:felixallaire25@gmail.com">felixallaire25@gmail.com</a>
+        <p>Projet réalisé dans le cadre d'un exercice pédagogique au département <a href="http://mmimontbeliard.com/"> MMI de Montbéliard</a></p>
+        <a href="http://mmimontbeliard.com/"><img src="img/interface/logo%20MMI.png" alt="logo de MMI"></a>
+    </div>
+    <div class="bloc_footer2">
+        <a href="https://www.instagram.com/mmi_montbeliard/"><img src="img/interface/insta.png" alt="insta"></a>
+        <a class="fb" href="https://www.facebook.com/mmimontbeliard/"><img src="img/interface/fb.png" alt="fb"></a>
+        <a href="https://twitter.com/mmimontbeliard?lang=fr"><img src="img/interface/twitter.png" alt="twitter"></a>
+        <a class="mail"  href="nous-contacter.html"><img src="img/interface/mail.png" alt="mail"></a>
+    </div>
+</footer>
+</body>
+</html>

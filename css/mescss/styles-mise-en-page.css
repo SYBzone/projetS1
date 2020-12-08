@@ -285,6 +285,27 @@ h4>p{
 .solu_part2 figcaption{
     text-align: center;
 }
-.bouton_conclu-solu{
-
+.a_propos {
+    background: linear-gradient(to bottom,#E31BEA,#4A22DF);
+    margin-top: 150px;
+}
+.a_propos h2{
+    color: white;
+    font-size: 3.5rem;
+    border-bottom: 2px solid #EDEF1C;
+    width: 274px;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.a_propos p{
+    color: #FCF6EC;
+}
+.a_propos img{
+    float: right;
+    margin: 10px -10px 0 10px;
+}
+.contact h2{
+    width: 262px;
+    margin: 140px 0 40px 56px;
+    font-size: 3.5rem;
 }
